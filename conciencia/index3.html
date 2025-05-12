@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h2>Bienvenido de vuelta</h2>
+        <form action="/buscar" method="get"></form>
+        <input type="text" name="q" placeholder="Buscar">
+        <h2>Crear Cuenta</h2>
+    </header>
+    <div class="container">
+    <div id="MENU">
+    <nav>
+        <div class="menu-container" id="menu">
+            <img src="imagenes/conciencia.png" widht="40" height="40" id="menuuu" class="logo">
+            <br>
+            <div class="menu" id="menuu">
+                <a href="#">Opción 1</a>
+                <a href="#">Opción 2</a>
+                <a href="#" id="verCarrito">Ver carrito</a>
+                <a href="#" id="verDeseado">Lista de deseados</a>
+            </div>
+        </div>
+        <div id="carritoMenu">
+  <h3>Carrito</h3>
+  <ul id="listaCarrito"></ul>
+  <p>Total: $<span id="totalCarrito">0</span></p>
+</div>
+<div id="menuDeseado">
+  <h3>Lista de deseados</h3>
+  <ul id="listaDeseado"></ul>
+</div>
+    </div>
+<div class="detallep">
+        <div id="detalle">
+        <img id="imgDetalle" width="200" height="200">
+        <div class="info">
+        <div id="nombreDetalle"></div>
+        <div class="cantidadc">
+            <div id="precioDetalle"></div>
+    <label for="cantidad"></label>
+    <select id="cantidad">
+    <option value="">Cantidad</option>
+    <option value="1">1 unidad</option>
+    <option value="2">2 unidades</option>
+    <option value="3">3 unidades</option>
+    <option value="4">4 unidades</option>
+    <option value="5">5 unidades</option>
+    <option value="6">6 unidades</option>
+    <option value="7">7 unidades</option>
+    <option value="8">8 unidades</option>
+    <option value="9">9 unidades</option>
+    <option value="10">10 unidades</option>
+    </select>
+    </div>
+    <div id="DesDetalle"></div>
+    <div class="botoness">
+    <button class="botonp">Añadir al carrito</button>
+    <button class="deseados">Añadir a deseados</button>
+    <button class="comprar">Comprar ahora</button>
+    </div>
+    </div>
+    </div>
+</div>
+    <nav>
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+    <script src="deseados.js"></script>
+    
+    
+    </div>
+    
+     
+</body>
+</html>

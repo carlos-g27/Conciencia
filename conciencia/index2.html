@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conciencia</title>
+</head>
+<body>
+    <header>
+        <h2>Bienvenido de vuelta</h2>
+        <form action="/buscar" method="get"></form>
+        <input type="text" name="q" placeholder="Buscar">
+        <h2>Crear Cuenta</h2>
+    </header>
+    <div class="container">
+    <div id="MENU">
+    <nav>
+        <div class="menu-container" id="menu">
+            <img src="imagenes/conciencia.png" widht="40" height="40" id="menuuu" class="logo">
+            <br>
+            <div class="menu" id="menuu">
+                <a href="#">Opción 1</a>
+                <a href="#">Opción 2</a>
+                <a href="#" id="verCarrito">Ver carrito</a>
+                <a href="#" id="verDeseado">Lista de deseados</a>
+            </div>
+        </div>
+        <div id="carritoMenu">
+  <h3>Carrito</h3>
+  <ul id="listaCarrito"></ul>
+  <p>Total: $<span id="totalCarrito">0</span></p>
+</div>
+<div id="menuDeseado">
+  <h3>Lista de deseados</h3>
+  <ul id="listaDeseado"></ul>
+</div>
+    </div>
+        <section id="Catalogo1">
+            <center><h1 class="titulo1 ">PROTEINAS</h1></center>
+        <div class="container_productos">    
+        <div class="productos" id="productos">
+            <div class="p" onclick="verproducto('producto1')">
+                <div><img src="imagenes/1p.png" width="200" height="200" id="imagen_producto1" class="pp"></div>
+                <div class="texto1p" id="nombre_producto1" >Proteína Proton Whey 4 Libras Smart Musclec</div><br>
+                <div id="Precio_producto1" class="ppp">300.000</div>
+                <div id="Des_producto1" style="display: none;" >hola mi nombre es julian y me gsuta el pollo con arroz xd jsjsjjsjsj sjjsjsjs sjjsjsjjs sjsjjsjs sjjsjsj sjjjs sjjsjs sjjsjsjs sjsjjss jjsjsjs jjsjjs jsjjsjs jsjjsj sjjsjsj</div>
+            </div>
+            <div class="p" onclick="verproducto('producto2')">
+                <div><img src="imagenes/2p.png" width="200" height="200" id="imagen_producto2" class="pp"></div>
+                <div class="texto1p" id="nombre_producto2">Whey pure</div><br>
+                <div id="Precio_producto2" class="ppp">140.000</div>
+                <div id="Des_producto2" style="display: none;">jhsdk jasdh jksdhfk jhskdjfhsjdhagfhjsad gfhjasg djhgashjdf gsh jgfhjs gfhjag sjasg2</div>
+            </div> 
+             <div class="p" onclick="verproducto('producto3')">
+                <div><img src="imagenes/3p.png" width="200" height="200" id="imagen_producto3" class="pp"></div>
+                <div class="texto1p" id="nombre_producto3">MuscleTech, IsoWhey</div><br>
+                <div id="Precio_producto3"class="ppp">692.000</div>
+                <div id="Des_producto3" style="display: none;">jhsdkjasdhjksdhfkjhskdjfhsjdhagfhjsadgfhjasgdjhgashjdfgshjgfhjsgfhjagsjasg3</div>
+            </div>
+            <div class="p">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="p">
+                <div></div>
+                <div></div>
+            </div>
+             <div class="p">
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+      <div>
+        <img  class=flechas id="b" src="imagenes/flecha.png">
+        <img  class=" flechas" id="j" src="imagenes/flecha2.png">
+    </div>
+    </section>
+    <section id="catalogo2">
+         <center><h1 class="titulo1 ">CREATINAS</h1></center>
+    <div class="container_productos">
+        <div class="productos1" id="productos1">
+            
+            <div class="p">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="p">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="p">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="p">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="p">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="p">
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div>
+            <img id="g" class="flechas1 " src="imagenes/flecha.png">
+            <img id="h" class="flechas1" src="imagenes/flecha2.png">
+        </div>
+    </section>
+    <section id="catalogo3">
+         <center><h1 class="titulo1 ">PRE-ENTRENOS</h1></center>
+    <div class="container_productos">
+        <div class="productos3" id="productos3">
+            
+            <div class="p">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="p">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="p">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="p">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="p">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="p">
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div>
+            <img id="y" class="flechas2 " src="imagenes/flecha.png">
+            <img id="v" class="flechas2" src="imagenes/flecha2.png">
+        </div>
+    </section>
+    <script src="script.js"></script>
+        <script src="deseados.js"></script>
+       
+        
+    </nav>
+    </div >
+</body>
+</html>
+
+
+
+
+
+
+
+
